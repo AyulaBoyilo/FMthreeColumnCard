@@ -1,0 +1,30 @@
+@import "colors";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  background-color: $very-light-gray;
+}
+
+.btn {
+  display: inline-block;
+  box-sizing: content-box;
+  text-decoration: none;
+  padding: 12px 27px;
+  background-color: $very-light-gray;
+  border-radius: 100px;
+  margin-top: 25px;
+  font-size: 15px;
+}
+
+body .container .card a.btn:hover {
+  box-shadow: 0px 0px 0px 2px #fff inset;
+  background-color: rgba($color: #000000, $alpha: 0);
+  color: $transparent-white;
+}
