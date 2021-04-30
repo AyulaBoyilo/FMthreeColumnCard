@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  background-color: #f2f2f2;
+}
+
+.btn {
+  display: inline-block;
+  box-sizing: content-box;
+  text-decoration: none;
+  padding: 12px 27px;
+  background-color: #f2f2f2;
+  border-radius: 100px;
+  margin-top: 25px;
+  font-size: 15px;
+}
+
+body .container .card a.btn:hover {
+  box-shadow: 0px 0px 0px 2px #fff inset;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.container {
+  padding: 70px 20px 50px 20px;
+}
+.container .card {
+  padding: 50px;
+  max-width: 335px;
+  margin: auto;
+  color: rgba(255, 255, 255, 0.75);
+}
+.container .card h2 {
+  font-family: "Big Shoulders Display", sans-serif;
+  text-transform: uppercase;
+  font-size: 40px;
+  color: #f2f2f2;
+  margin-top: 25px;
+}
+.container .card p {
+  margin-top: 25px;
+  line-height: 1.8;
+}
+.container .card:first-child {
+  background-color: #e38826;
+  border-radius: 5px 5px 0 0;
+}
+.container .card:first-child a {
+  text-decoration: none;
+  color: #e38826;
+}
+.container .card:first-child a:visited {
+  color: #e38826;
+}
+.container .card:nth-child(2) {
+  background-color: #006970;
+  border-radius: 0;
+}
+.container .card:nth-child(2) a {
+  text-decoration: none;
+  color: #006970;
+}
+.container .card:nth-child(2) a:visited {
+  color: #006970;
+}
+.container .card:last-child {
+  background-color: #004241;
+  border-radius: 0 0 5px 5px;
+}
+.container .card:last-child a {
+  text-decoration: none;
+  color: #006970;
+}
+.container .card:last-child a:visited {
+  color: #006970;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding: 0 10px 50px 10px;
+}
+.attribution a {
+  color: #3e52a3;
+}
+
+@media (min-width: 750px) {
+  body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container {
+    max-width: 960px;
+    margin: auto;
+    display: flex;
+  }
+  .container .card {
+    padding: 35px;
+    height: 500px;
+    position: relative;
+  }
+  .container .card p {
+    font-size: 14px;
+  }
+  .container .card .btn {
+    position: absolute;
+    bottom: 35px;
+    left: 35px;
+  }
+  .container .card:first-child {
+    border-radius: 5px 0 0 5px;
+  }
+  .container .card:last-child {
+    border-radius: 0 5px 5px 0;
+  }
+}
+@media (min-width: 1000px) {
+  .container .card {
+    padding: 50px;
+  }
+  .container .card p {
+    font-size: 15px;
+  }
+  .container .card .btn {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+  }
+}/*# sourceMappingURL=style.css.map */
